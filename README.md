@@ -45,7 +45,8 @@ Epochs on the x-axis, validation accuracy on y-axis.
 SIW dropout clearly helped stabilize the validation loss and granted a slight performance increase. 
 
 SIW dropout shows promising results that make it worth investigating more. 
-Next steps:
+
+Next steps/further research:
 - Apply SIW dropout at a per-batch rate
 - Try with networks that are not pretrained 
 - Other datasets or network architectures 
