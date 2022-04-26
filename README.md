@@ -19,4 +19,21 @@ dropout on a bigger network, VIT. Here SIW dropout is applied to every FC layer 
 are achived with a SIW dropout probability of 5% at a rate of 1 time every 3 epochs (curiously this choice of 
 parameters also displayed the best results in smaller networks). 
 
+Both files uploaded to this repository contain the notebook where SIW dropout was tested. The graphs below are 
+from notebook 2. 
+
+<img width="812" alt="image" src="https://user-images.githubusercontent.com/22745975/165368741-1c1a7d66-efcc-4466-baba-cecdd84571f4.png">
+
+<img width="830" alt="image" src="https://user-images.githubusercontent.com/22745975/165368832-d39a5074-0933-4eb9-bb01-40fb43814167.png">
+
+5% probabilty yielded the best results. To confirm this these tests where repeated 10 times and the average was taken.
+
+<img width="825" alt="image" src="https://user-images.githubusercontent.com/22745975/165369545-e2ed89f0-3cb9-45d0-a950-a9cd4372590a.png">
+
+<img width="834" alt="image" src="https://user-images.githubusercontent.com/22745975/165369584-573d5002-16f7-43b2-a127-98bf170ad674.png">
+
+SIW dropout clearly helped stabilize the validation loss and granted a slight performance increase. 
+
+(Some graphs on notebook 1 have 'SIW' incorrectly label as 'boston')
+
 Antorbus
