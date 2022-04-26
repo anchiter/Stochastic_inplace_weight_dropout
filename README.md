@@ -5,7 +5,7 @@ In this notebook I implement a variant of an idea I had: weight dropout. Essenti
 which a neural network follows a policy consisting in setting a percentage of its weights to zero (when a condition 
 is met). This variant, named stochastic inplace weight (SIW) dropout, randomly sets a specified percentage of 
 weights, every specified number of epochs to zero. Each time SIW dropout is performed the weights are also scaled 
-accordingly. The principle behind SIW dropout is to improve generalization by introducing small and random 
+accordingly. The goal behind SIW dropout is to improve generalization by introducing small and random 
 disruptions in the training process to aid the learning alogirithm in finding a better local minima. By hindering
 the training process, the network overfits at a slower pace while performance is maitained. It may also be helpful
 in improving training if a network is trained with a suboptimal learning rate. 
