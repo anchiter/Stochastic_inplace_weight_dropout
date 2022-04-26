@@ -7,10 +7,10 @@ is met). This variant, named stochastic inplace weight (SIW) dropout, randomly s
 weights, every specified number of epochs to zero. Each time SIW dropout is performed the weights are also scaled 
 accordingly. The goal behind SIW dropout is to improve generalization by introducing small and random 
 disruptions in the training process to aid the learning alogirithm in finding a better local minima. By hindering
-the training process, the network overfits at a slower pace while performance is maitained. It may also be helpful
+the training process, the network overfits at a slower pace while performance is maintained. It may also be helpful
 in improving training if a network is trained with a suboptimal learning rate. 
 
-In January I tested SIW dropout with a simple and small fully connected network using the boston housing dataset.
+In January 2022 I tested SIW dropout with a simple and small fully connected network using the boston housing dataset.
 This testing yielded promising results; SIW dropout made the network train faster and generlize slightly better. 
 SIW was later tested on CNNs however it had a detrimental peformance when applied to the convolutional layers. 
 Therefore I decided to stick to testing SIW on fully connected layers. I tried SIW dropout on the last FC layers
