@@ -57,3 +57,8 @@ Next steps/further research:
 boston droput)
 
 Antorbus
+
+
+
+
+Update 16/6/22: After researching sparse NN I have found SIW dropout was already proposed back in 2013 (Dropconnect): http://proceedings.mlr.press/v28/wan13.pdf
